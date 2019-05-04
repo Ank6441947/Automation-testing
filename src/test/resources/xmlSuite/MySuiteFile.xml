@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation testing">
+  <test verbose="2" name="Testing Report">
+    <classes>
+      <class name="testcases.logInPageTest"></class> 
+      <class name="testcases.dashBoardPageTest"></class>
+      <class name="testcases.accountDetailsPagetest"></class>
+      <class name="testcases.addressPageTest"></class>
+      <class name="testcases.downloadPageTest"></class>
+      <class name="testcases.orderPageTest"></class>     
+    </classes>
+  </test> <!-- Default test -->
+  
+ 
+</suite> <!-- Default suite -->

@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Automation_testing">
+              <span class="suite-name border-skipped">Automation testing</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Automation_testing">
+                    <span>D:\selenium\workspace\BlaBlaCar\src\test\resources\xmlSuite\MySuiteFile.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Automation_testing">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Automation_testing">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Automation_testing">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Automation_testing">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Automation_testing">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Automation_testing">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,  10 skipped,  12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Automation_testing" class="hide-methods skipped suite-Automation_testing"> (hide)</a> <!-- hide-methods skipped suite-Automation_testing -->
+                      <a href="#" panel-name="suite-Automation_testing" class="show-methods skipped suite-Automation_testing"> (show)</a> <!-- show-methods skipped suite-Automation_testing -->
+                    </span>
+                    <div class="method-list-content skipped suite-Automation_testing">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.addressPageTest" hash-for-method="BillingAddressTextvisibleTest">BillingAddressTextvisibleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.addressPageTest" hash-for-method="ShippingAddressTextvisibleTest">ShippingAddressTextvisibleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.orderPageTest" hash-for-method="ShopTest">ShopTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.addressPageTest" hash-for-method="UpdateBillingAddressTest(abc, def, 1234567890, India, Pune, Pune, Maharashtra, 411045)">UpdateBillingAddressTest(abc, def, 1234567890, India, Pune, Pune, Maharashtra, 411045)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.downloadPageTest" hash-for-method="goshopbuttonPresentTest">goshopbuttonPresentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.orderPageTest" hash-for-method="goshopbuttonPresentTest">goshopbuttonPresentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.accountDetailsPagetest" hash-for-method="passwordChangeTest(Rad!Rad3, Rad!Rad1)">passwordChangeTest(Rad!Rad3, Rad!Rad1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.accountDetailsPagetest" hash-for-method="passwordChangeTest(Rad!Rad2, Rad!Rad3)">passwordChangeTest(Rad!Rad2, Rad!Rad3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.downloadPageTest" hash-for-method="validateDownloadPageTitleTest">validateDownloadPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.orderPageTest" hash-for-method="validateOrderPageTitleTest">validateOrderPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Automation_testing -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Automation_testing" class="hide-methods passed suite-Automation_testing"> (hide)</a> <!-- hide-methods passed suite-Automation_testing -->
+                      <a href="#" panel-name="suite-Automation_testing" class="show-methods passed suite-Automation_testing"> (show)</a> <!-- show-methods passed suite-Automation_testing -->
+                    </span>
+                    <div class="method-list-content passed suite-Automation_testing">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.dashBoardPageTest" hash-for-method="BillingLinkTest">BillingLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.dashBoardPageTest" hash-for-method="accountDetailsLinkTest">accountDetailsLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.accountDetailsPagetest" hash-for-method="addnameTest(user2, pwd)">addnameTest(user2, pwd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.accountDetailsPagetest" hash-for-method="addnameTest(user3, pwd)">addnameTest(user3, pwd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.accountDetailsPagetest" hash-for-method="addnameTest(user4, pwd)">addnameTest(user4, pwd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.accountDetailsPagetest" hash-for-method="addnameTest(user1, pwd1)">addnameTest(user1, pwd1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.dashBoardPageTest" hash-for-method="dashboardTitleTest">dashboardTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.logInPageTest" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.logInPageTest" hash-for-method="logintotheAccount">logintotheAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.logInPageTest" hash-for-method="logoImagetest">logoImagetest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.dashBoardPageTest" hash-for-method="orderLinkTest">orderLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_testing" title="testcases.accountDetailsPagetest" hash-for-method="passwordChangeTest(Rad!Rad1, Rad!Rad2)">passwordChangeTest(Rad!Rad1, Rad!Rad2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automation_testing -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automation_testing" class="panel Automation_testing">
+          <div class="suite-Automation_testing-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.downloadPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="goshopbuttonPresentTest">
+                  </a> <!-- goshopbuttonPresentTest -->
+                  <span class="method-name">goshopbuttonPresentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDownloadPageTitleTest">
+                  </a> <!-- validateDownloadPageTitleTest -->
+                  <span class="method-name">validateDownloadPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_testing-class-skipped -->
+          <div class="suite-Automation_testing-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.addressPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingAddressTextvisibleTest">
+                  </a> <!-- BillingAddressTextvisibleTest -->
+                  <span class="method-name">BillingAddressTextvisibleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShippingAddressTextvisibleTest">
+                  </a> <!-- ShippingAddressTextvisibleTest -->
+                  <span class="method-name">ShippingAddressTextvisibleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateBillingAddressTest(abc, def, 1234567890, India, Pune, Pune, Maharashtra, 411045)">
+                  </a> <!-- UpdateBillingAddressTest(abc, def, 1234567890, India, Pune, Pune, Maharashtra, 411045) -->
+                  <span class="method-name">UpdateBillingAddressTest</span>
+                  <span class="parameters">(abc, def, 1234567890, India, Pune, Pune, Maharashtra, 411045)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_testing-class-skipped -->
+          <div class="suite-Automation_testing-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.accountDetailsPagetest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordChangeTest(Rad!Rad3, Rad!Rad1)">
+                  </a> <!-- passwordChangeTest(Rad!Rad3, Rad!Rad1) -->
+                  <span class="method-name">passwordChangeTest</span>
+                  <span class="parameters">(Rad!Rad3, Rad!Rad1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordChangeTest(Rad!Rad2, Rad!Rad3)">
+                  </a> <!-- passwordChangeTest(Rad!Rad2, Rad!Rad3) -->
+                  <span class="method-name">passwordChangeTest</span>
+                  <span class="parameters">(Rad!Rad2, Rad!Rad3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_testing-class-skipped -->
+          <div class="suite-Automation_testing-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.orderPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShopTest">
+                  </a> <!-- ShopTest -->
+                  <span class="method-name">ShopTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goshopbuttonPresentTest">
+                  </a> <!-- goshopbuttonPresentTest -->
+                  <span class="method-name">goshopbuttonPresentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateOrderPageTitleTest">
+                  </a> <!-- validateOrderPageTitleTest -->
+                  <span class="method-name">validateOrderPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_testing-class-skipped -->
+          <div class="suite-Automation_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.accountDetailsPagetest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addnameTest(user2, pwd)">
+                  </a> <!-- addnameTest(user2, pwd) -->
+                  <span class="method-name">addnameTest</span>
+                  <span class="parameters">(user2, pwd)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addnameTest(user3, pwd)">
+                  </a> <!-- addnameTest(user3, pwd) -->
+                  <span class="method-name">addnameTest</span>
+                  <span class="parameters">(user3, pwd)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addnameTest(user4, pwd)">
+                  </a> <!-- addnameTest(user4, pwd) -->
+                  <span class="method-name">addnameTest</span>
+                  <span class="parameters">(user4, pwd)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addnameTest(user1, pwd1)">
+                  </a> <!-- addnameTest(user1, pwd1) -->
+                  <span class="method-name">addnameTest</span>
+                  <span class="parameters">(user1, pwd1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordChangeTest(Rad!Rad1, Rad!Rad2)">
+                  </a> <!-- passwordChangeTest(Rad!Rad1, Rad!Rad2) -->
+                  <span class="method-name">passwordChangeTest</span>
+                  <span class="parameters">(Rad!Rad1, Rad!Rad2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_testing-class-passed -->
+          <div class="suite-Automation_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.logInPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logintotheAccount">
+                  </a> <!-- logintotheAccount -->
+                  <span class="method-name">logintotheAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoImagetest">
+                  </a> <!-- logoImagetest -->
+                  <span class="method-name">logoImagetest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_testing-class-passed -->
+          <div class="suite-Automation_testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.dashBoardPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingLinkTest">
+                  </a> <!-- BillingLinkTest -->
+                  <span class="method-name">BillingLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountDetailsLinkTest">
+                  </a> <!-- accountDetailsLinkTest -->
+                  <span class="method-name">accountDetailsLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashboardTitleTest">
+                  </a> <!-- dashboardTitleTest -->
+                  <span class="method-name">dashboardTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderLinkTest">
+                  </a> <!-- orderLinkTest -->
+                  <span class="method-name">orderLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_testing-class-passed -->
+        </div> <!-- panel Automation_testing -->
+        <div panel-name="test-xml-Automation_testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\selenium\workspace\BlaBlaCar\src\test\resources\xmlSuite\MySuiteFile.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Automation testing&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Testing Report&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.logInPageTest&quot;/&gt;
+      &lt;class name=&quot;testcases.dashBoardPageTest&quot;/&gt;
+      &lt;class name=&quot;testcases.accountDetailsPagetest&quot;/&gt;
+      &lt;class name=&quot;testcases.addressPageTest&quot;/&gt;
+      &lt;class name=&quot;testcases.downloadPageTest&quot;/&gt;
+      &lt;class name=&quot;testcases.orderPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testing Report --&gt;
+&lt;/suite&gt; &lt;!-- Automation testing --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automation_testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automation testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Testing Report (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automation_testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automation testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automation_testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automation testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automation_testing');
+function tableData_Automation_testing() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addnameTest')
+data.setCell(0, 2, 'testcases.accountDetailsPagetest')
+data.setCell(0, 3, 20666);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'logintotheAccount')
+data.setCell(1, 2, 'testcases.logInPageTest')
+data.setCell(1, 3, 5567);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addnameTest')
+data.setCell(2, 2, 'testcases.accountDetailsPagetest')
+data.setCell(2, 3, 5037);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'orderLinkTest')
+data.setCell(3, 2, 'testcases.dashBoardPageTest')
+data.setCell(3, 3, 4971);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addnameTest')
+data.setCell(4, 2, 'testcases.accountDetailsPagetest')
+data.setCell(4, 3, 4629);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'passwordChangeTest')
+data.setCell(5, 2, 'testcases.accountDetailsPagetest')
+data.setCell(5, 3, 4315);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'BillingLinkTest')
+data.setCell(6, 2, 'testcases.dashBoardPageTest')
+data.setCell(6, 3, 3253);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addnameTest')
+data.setCell(7, 2, 'testcases.accountDetailsPagetest')
+data.setCell(7, 3, 3172);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'accountDetailsLinkTest')
+data.setCell(8, 2, 'testcases.dashBoardPageTest')
+data.setCell(8, 3, 2441);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'logoImagetest')
+data.setCell(9, 2, 'testcases.logInPageTest')
+data.setCell(9, 3, 43);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginPageTitleTest')
+data.setCell(10, 2, 'testcases.logInPageTest')
+data.setCell(10, 3, 16);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'dashboardTitleTest')
+data.setCell(11, 2, 'testcases.dashBoardPageTest')
+data.setCell(11, 3, 16);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ShopTest')
+data.setCell(12, 2, 'testcases.orderPageTest')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'passwordChangeTest')
+data.setCell(13, 2, 'testcases.accountDetailsPagetest')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'UpdateBillingAddressTest')
+data.setCell(14, 2, 'testcases.addressPageTest')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ShippingAddressTextvisibleTest')
+data.setCell(15, 2, 'testcases.addressPageTest')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'BillingAddressTextvisibleTest')
+data.setCell(16, 2, 'testcases.addressPageTest')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'passwordChangeTest')
+data.setCell(17, 2, 'testcases.accountDetailsPagetest')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'goshopbuttonPresentTest')
+data.setCell(18, 2, 'testcases.downloadPageTest')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validateOrderPageTitleTest')
+data.setCell(19, 2, 'testcases.orderPageTest')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validateDownloadPageTitleTest')
+data.setCell(20, 2, 'testcases.downloadPageTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'goshopbuttonPresentTest')
+data.setCell(21, 2, 'testcases.orderPageTest')
+data.setCell(21, 3, 0);
+window.suiteTableData['Automation_testing']= { tableData: data, tableDiv: 'times-div-Automation_testing'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <div id="times-div-Automation_testing">
+              </div> <!-- times-div-Automation_testing -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automation_testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automation testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automation_testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automation_testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.logInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">37088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37105 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">37785 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoImagetest</span>
+                <span class="method-start">73980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">74024 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">74649 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logintotheAccount</span>
+                <span class="method-start">110626 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">116194 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.dashBoardPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">116844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dashboardTitleTest</span>
+                <span class="method-start">156834 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">156850 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">157488 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">orderLinkTest</span>
+                <span class="method-start">199278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">204249 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">204896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BillingLinkTest</span>
+                <span class="method-start">246212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">249467 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">250116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">accountDetailsLinkTest</span>
+                <span class="method-start">290074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">292515 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.accountDetailsPagetest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">293908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addnameTest(user1, pwd1)</span>
+                <span class="method-start">336557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">339730 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">340368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addnameTest(user2, pwd)</span>
+                <span class="method-start">395180 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">399810 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">400492 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addnameTest(user3, pwd)</span>
+                <span class="method-start">455166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">475833 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">476527 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addnameTest(user4, pwd)</span>
+                <span class="method-start">531938 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">536976 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">537736 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">passwordChangeTest(Rad!Rad1, Rad!Rad2)</span>
+                <span class="method-start">582033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">586349 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">587018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">passwordChangeTest(Rad!Rad2, Rad!Rad3)</span>
+                <span class="method-start">666099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">passwordChangeTest(Rad!Rad3, Rad!Rad1)</span>
+                <span class="method-start">666103 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.addressPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">666192 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UpdateBillingAddressTest(abc, def, 1234567890, India, Pune, Pune, Maharashtra, 411045)</span>
+                <span class="method-start">718164 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BillingAddressTextvisibleTest</span>
+                <span class="method-start">718167 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ShippingAddressTextvisibleTest</span>
+                <span class="method-start">718169 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.downloadPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">718171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateDownloadPageTitleTest</span>
+                <span class="method-start">769290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">goshopbuttonPresentTest</span>
+                <span class="method-start">769294 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.orderPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">769299 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShopTest</span>
+                <span class="method-start">819635 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">goshopbuttonPresentTest</span>
+                <span class="method-start">819639 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateOrderPageTitleTest</span>
+                <span class="method-start">819642 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

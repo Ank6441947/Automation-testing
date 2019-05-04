@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation testing]">
+  <test verbose="2" name="Testing Report">
+    <classes>
+      <class name="testcases.logInPageTest"/>
+      <class name="testcases.dashBoardPageTest"/>
+      <class name="testcases.accountDetailsPagetest"/>
+      <class name="testcases.addressPageTest"/>
+      <class name="testcases.downloadPageTest"/>
+      <class name="testcases.orderPageTest"/>
+    </classes>
+  </test> <!-- Testing Report -->
+  <test name="Testing Report(failed)">
+    <classes>
+      <class name="testcases.downloadPageTest">
+        <methods>
+          <include name="validateDownloadPageTitleTest"/>
+          <include name="goshopbuttonPresentTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.downloadPageTest -->
+      <class name="testcases.addressPageTest">
+        <methods>
+          <include name="BillingAddressTextvisibleTest"/>
+          <include name="ShippingAddressTextvisibleTest"/>
+          <include name="setup"/>
+          <include name="UpdateBillingAddressTest"/>
+        </methods>
+      </class> <!-- testcases.addressPageTest -->
+      <class name="testcases.accountDetailsPagetest">
+        <methods>
+          <include name="passwordChangeTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcases.accountDetailsPagetest -->
+      <class name="testcases.orderPageTest">
+        <methods>
+          <include name="goshopbuttonPresentTest"/>
+          <include name="validateOrderPageTitleTest"/>
+          <include name="setup"/>
+          <include name="ShopTest"/>
+        </methods>
+      </class> <!-- testcases.orderPageTest -->
+      <class name="testcases.logInPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.logInPageTest -->
+      <class name="testcases.dashBoardPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.dashBoardPageTest -->
+    </classes>
+  </test> <!-- Testing Report(failed) -->
+</suite> <!-- Failed suite [Automation testing] -->
